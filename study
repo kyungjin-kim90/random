@@ -1,0 +1,5 @@
+fun main() {
+    val diceRange = 1..45
+    val randomNumber = diceRange.random()
+    println("Random number : ${randomNumber}")
+}
